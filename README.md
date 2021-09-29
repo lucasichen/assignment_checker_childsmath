@@ -6,6 +6,6 @@ To modify this script for your own use, please modify the following variables in
 ![image](https://user-images.githubusercontent.com/71472753/135195969-6d4d02cc-5d4c-4cb5-8ca5-6268c9dff81f.png)
 
 Message looks like this:
-![image](https://user-images.githubusercontent.com/71472753/135196438-66982b2c-7808-4323-ab8d-45acaf0995ae.png)
+![image](https://user-images.githubusercontent.com/71472753/135196438-66982b2c-7808-4323-ab8d-45acaf0995ae.png =400x250)
 
 
