@@ -8,11 +8,13 @@ timer = 1 #Number of seconds before next command
 
 driver = webdriver.Chrome(executable_path="Drivers/chromedriver")
 
+# Open childsmath URL
 driver.get("https://www.childsmath.ca/childsa/forms/main_login.php")
 
 driver.find_element_by_id("submit").click()
 time.sleep(timer)
 
+# Log in to McMaster portal
 print("Finding Username Field...")
 username = driver.find_element_by_id("user_id")
 print("Username Field Found. Inputting Username....")
@@ -29,6 +31,7 @@ print("Logging In...")
 driver.find_element_by_id("submit").click()
 time.sleep(timer)
 
+# Click on course
 print("Clicking on Math 2Z03 course")
 driver.find_element_by_link_text("Math 2Z03").click()
 
@@ -36,6 +39,7 @@ print("Checking for Open Assignments")
 
 open_assignments = []
 
+# Find open assignments
 for i in range(1,14):
     num = str(i)
     try:
@@ -48,6 +52,7 @@ for i in range(1,14):
 text_to_body = "You have " + str(len(open_assignments)) + " open assignment(s): " + str(open_assignments)
 print(text_to_body)
 
+# Send SMS for open assigments
 client = Client(account_sid, auth_token) 
 message = client.messages.create(  
     messaging_service_sid=SID, 
