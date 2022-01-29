@@ -11,11 +11,15 @@ To modify this script for your own use, please modify the following variables in
 
 or set up your own environmental variables.
 
-<b>MUST</b> also have your own twilio account along with its tokens to work
-
-
 ![image](https://user-images.githubusercontent.com/71472753/135195969-6d4d02cc-5d4c-4cb5-8ca5-6268c9dff81f.png)
 
+<b>MUST</b> also have your own twilio account along with its tokens to work
 
+### Built With
+* [Selenium](https://www.selenium.dev/documentation/) - For web automation
+* [Python](https://docs.python.org/3/) - Backend
+
+### Authors
+* [Lucas Chen](https://www.github/lucasichen) <br>
 
 
