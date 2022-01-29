@@ -2,6 +2,7 @@
 Tries to find all open assignments in Childsmath for course 2Z03 and send a SMS to your number
 
 Message looks like this:
+
 <img src="https://user-images.githubusercontent.com/71472753/135196438-66982b2c-7808-4323-ab8d-45acaf0995ae.png" width="400">
 
 ## Getting Start
